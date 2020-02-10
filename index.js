@@ -1,14 +1,10 @@
 // Add your functions and code here
-var kittens = [
-  'Milo',
-  'Otis',
-  'Garfield'
-  ];
+var kittens = ["Milo", "Otis", "Garfield"]
 
 
 function destructivelyAppendKitten(name) {
   kittens.push(name)
-  return kittens
+  return name
 }
 
 function destructivelyPrependKitten(name){
@@ -22,22 +18,17 @@ function destructivelyRemoveLastKitten(name){
 }
 
 function destructivelyRemoveFirstKitten(name){
-  kittens.shift(name)
-  return kittens
+  kittens.
 }
 
 function appendKitten(name){
-  return [...kittens, name]
 }
 
 function prependKitten(name) {
-  return [name, ...kittens]
 }
 
 function removeLastKitten(){
-  return kittens.slice(0, kittens.length - 1)
 }
 
 function removeFirstKitten(){
-  return kittens.slice(1)
 }
